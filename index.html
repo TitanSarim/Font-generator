@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+   
+
+</head>
+<body>
+    
+    <div>
+
+        <!-- Navigation bar -->
+
+        <header>
+            <nav>
+                <div class="logo">
+                    <h4>Logo</h4>
+                </div>
+   
+                <ul class="nav-links">
+                    <p class="menu-main">Main Menu</p>
+                    <li class="animation"><a class="nav-link" href="./">Home</a></li>
+                    <li class="animation"><a class="nav-link" href="./pages/aboutme.html">About us</a></li>
+                    <li class="animation"><a class="nav-link" href="./pages/contactme.html">Contact us</a></li>
+                    <li class="animation"><a class="nav-link" href="./pages/privacypolicy.html">Privacy & Policy</a></li>
+                    <li class="animation"><a class="nav-link" href="https://codecanyon.net/user/ziaahmedf17">More Tools</a></li>
+                </ul>
+               
+
+                <div class="burger">
+                        
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                </div>
+            </nav>
+    </header>
+
+
+        <div>
+
+            
+
+            <div class="text-selection-first">
+
+                <div class="text-input-area">
+                    <label class="add-text">Add Text ...</label>
+                        <textarea id="input-text-area" rows="4" cols="60" disabled placeholder="Type something!"></textarea><br>
+                </div>
+
+                <div class="font-section">
+
+                    <p class="modifyas">Modify as you wish</p>
+
+                    <label class="onestlabel"><span>Select Font</span>
+                        <div class="select">
+                            <select id="font-select"  name="fontlist" title="Font Selection"> 
+                            </select>
+                        </div>
+                    </label>
+                
+                
+                    <label class="select-text-style"><span>Select Text Style</span>
+                        <div class="select">
+                            <select id="font-style-select" name="font-styles" title="Style Selection">
+                                    <option value="shift-normal" >None</option>
+                                    <option value="shift-upper" selected>Uppercase</option>
+                                    <option value="shift-lower">Lowercase</option>
+                                    <option value="shift-alternate">Alternate Case</option>
+                                    <option value="spaced">Spaced</option>
+                                    <option value="reverse">Reversed</option>
+                            </select>
+                        </div>
+                    </label>
+                
+                </div>
+
+        </div>
+
+        
+        <div class="generatedone-text">
+            <h4>Copy Text Here ...</h4>
+            <div class="generated-style">
+                <div class="generated-style-1">
+                    <p title="Click to copy" id="output-text" class="generated-text"></p>
+                    <p class="copy-text" id="copy-text" disabled>Copy</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="viewall-container">
+            <p class="view-allsection">View All Fonts</p>
+            <div class="view-all-fonts" id="viewall-container">
+
+                <details class="view-font-detials" >
+                    <summary id="view-all-conversions">
+                        <img src="./assets/arrow.svg" alt="Icon drop-down" height="30px">
+                    </summary>
+                    <ul id="output-list" class="break-all"></ul>
+                </details>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <!-- faq -->
+        <div class="box">
+            <p class="heading">FAQs</p>
+            <div class="faqs">
+
+               <details class="faq-details">
+
+                    <summary class="faq-summary">
+                        <img src="./assets/arrow.svg" alt="Icon drop-down" height="30px">
+                        <span>What is Lorem ipsum?</span>
+                    </summary>
+                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </details>
+
+               <details class="faq-details">
+
+                    <summary class="faq-summary">
+                        <img src="./assets/arrow.svg" alt="Icon drop-down" height="30px">
+                        <span>What is Lorem ipsum?</span>
+                    </summary>
+                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </details>
+
+               <details class="faq-details">
+                    <summary class="faq-summary">
+                            <img src="./assets/arrow.svg" alt="Icon drop-down" height="30px">
+                            <span>What is Lorem ipsum?</span>
+                    </summary>
+                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </details>
+            </div>
+         </div>
+
+    </div>
+
+    <!-- <footer class="footer">
+        <div class="nav-down">
+            <p>Developed and Designed By <span class="sarim-span"><a href="https://bbegy.com/"> SarimXahid </a></span></p>
+        </div>
+    </footer> -->
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/function.js"></script>
+    <script src="./js/Footer.js"></script>
+
+
+</body>
+</html>
+

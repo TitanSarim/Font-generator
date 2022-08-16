@@ -1,0 +1,11 @@
+{
+  "name": "fancy_font",
+  "version": "1.0.0",
+  "description": "In this application user can generate his own fancy fonts",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarim Xahid",
+  "license": "ISC"
+}
